@@ -23,11 +23,12 @@ app.post('/news', async function (req,res) {
         source : article.source.name, 
         title : article.title,
         description: article.description,
+        imageurl : article.urlToImage,   
     }));
 
     res.json({
 
-      data : final,   
+      article : final,   
     }); 
    
 
