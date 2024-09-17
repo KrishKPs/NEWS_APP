@@ -37,4 +37,3 @@ app.post('/news', async function (req,res) {
 app.listen(PORT, () => {console.log(`Server is running on port ${PORT}`)});  
 
 
-//https://newsapi.org/v2/everything?q=apple&apiKey=0db68d97ef5b4cbfaf50b7735537d05c
